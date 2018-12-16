@@ -126,8 +126,9 @@ class ChosenConfigForm extends ConfigFormBase {
     ];
 
     $form['options'] = [
-      '#type' => 'fieldset',
-      '#title' => t('Chosen general options'),
+      '#type' => 'details',
+      '#title' => $this->t('Chosen general options'),
+      '#open' => TRUE,
     ];
 
     $form['options']['search_contains'] = [
@@ -153,8 +154,9 @@ class ChosenConfigForm extends ConfigFormBase {
     ];
 
     $form['theme_options'] = [
-      '#type' => 'fieldset',
+      '#type' => 'details',
       '#title' => $this->t('Chosen per theme options'),
+      '#open' => TRUE,
     ];
 
     $default_disabled_themes = $chosen_conf->get('disabled_themes');
@@ -179,8 +181,9 @@ class ChosenConfigForm extends ConfigFormBase {
     ];
 
     $form['strings'] = [
-      '#type' => 'fieldset',
+      '#type' => 'details',
       '#title' => $this->t('Chosen strings'),
+      '#open' => TRUE,
     ];
 
     $form['strings']['placeholder_text_multiple'] = [
