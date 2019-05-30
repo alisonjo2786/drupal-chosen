@@ -1,5 +1,5 @@
 {
-  "name": "alisonjo2786/chosen",
+  "name": "alisonjo2786/drupal-chosen",
   "description": "Makes select elements more friendly using the Chosen jQuery plugin",
   "type": "drupal-module",
   "license": "GPL-2.0+",
