@@ -12,6 +12,6 @@
         "Chosen"
     ],
     "require": {
-        "alisonjo2786/chosen": "dev-master"
+        "alisonjo2786/chosen": "^1.8"
     }
 }
